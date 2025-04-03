@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "23448804"))
 API_HASH = environ.get("API_HASH", "07a3c7834916cb7a4318026dbf0eac28")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7229764709:AAHTQXoGlGjJ4dIum2ZIEOZ-aQQs1xOtFDg")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://envs.sh/ctD.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6476946240').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "moxifilesbot") # without @
 PORT = environ.get("PORT", "8080")
@@ -35,8 +35,8 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://monish280720:hsUe1KPZd5wh5hfD@cluster0.x2rr3kl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = environ.get("DB_NAME", "monish280720")
+DB_URI = environ.get("DB_URI", "mongodb+srv://trickyarts06:eeYfoooZYUD0bBmB@cluster0.czdsu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = environ.get("DB_NAME", "trickyarts06")
 
 # Auto Delete Information
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
