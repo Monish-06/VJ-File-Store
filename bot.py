@@ -1,6 +1,20 @@
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+import threading
+import requests
+import time
+ 
+def keep_alive():
+    while True:
+        try:
+            requests.get("https://sleepy-starfish-monish2807-50b1cc37.koyeb.app/")
+        except:
+            pass
+        time.sleep(90)  # Ping every 5 minutes
+ 
+threading.Thread(target=keep_alive, daemon=True).start()
+
 
 
 import sys
